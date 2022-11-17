@@ -20,3 +20,5 @@ const arr2 = arr1.map((a, b) => {
 })
 console.log(arr2)
 //OUTPUT:  ['J', 'u', 'S', 't', 'J', 'o', 'I', 'n', '.', 'i', 'T']
+
+
