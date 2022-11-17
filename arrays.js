@@ -10,7 +10,7 @@ const camelCaseArr = arr.reduce((a, b, c) => {
 console.log(camelCaseArr)
 //OUTPUT:  "JuStJoIn.iT"
 
-//method filter in practice
+//method map in practice
 const arr1 = ["J", "U", "S", "T", "J", "O", "I", "N", ".", "I", "T"]
 const arr2 = arr1.map((a, b) => {
 	if (b % 2 !== 0 && !!a.toUpperCase()) {
