@@ -1,8 +1,3 @@
-Table of contents
+General info: Simple practice with js Arrays
 
-General info
-Simple practice with js Arrays
-
-Technologies
-JS
-
+Technologies: JS
