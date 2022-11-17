@@ -7,7 +7,7 @@ const camelCaseArr = arr.reduce((a, b, c) => {
 	}
 	return a + b
 }, "")
-console.log(camelCaseArr)
+//console.log(camelCaseArr)
 //OUTPUT:  "JuStJoIn.iT"
 
 //method map in practice
@@ -18,7 +18,15 @@ const arr2 = arr1.map((a, b) => {
 	}
 	return a
 })
-console.log(arr2)
+//console.log(arr2)
 //OUTPUT:  ['J', 'u', 'S', 't', 'J', 'o', 'I', 'n', '.', 'i', 'T']
 
-
+//method filter in practice
+const arr3 = ["J", "U", "S", "T", "J", "O", "I", "N", ".", "I", "T"]
+const arr4 = arr3.filter(a => {
+	if (a < "O") {
+		return a
+	}
+})
+console.log(arr4)
+//OUTPUT: ['J', 'J', 'I', 'N', '.', 'I']
